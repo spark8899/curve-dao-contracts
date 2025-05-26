@@ -1,12 +1,12 @@
 # curve-dao-contracts
 
-Vyper contracts used in the [Curve](https://www.curve.fi/) Governance DAO.
+Vyper contracts used in the [Curve](https://www.curve.finance/) Governance DAO.
 
 ## Overview
 
 Curve DAO consists of multiple smart contracts connected by [Aragon](https://github.com/aragon/aragonOS). Interaction with Aragon occurs through a [modified implementation](https://github.com/curvefi/curve-aragon-voting) of the [Aragon Voting App](https://github.com/aragon/aragon-apps/tree/master/apps/voting). Aragon's standard one token, one vote method is replaced with a weighting system based on locking tokens. Curve DAO has a token (CRV) which is used for both governance and value accrual.
 
-View the [documentation](https://curve.readthedocs.io/dao-overview.html) for a more in-depth explanation of how Curve DAO works.
+View the [documentation](https://resources.curve.finance/governance/overview/) for a more in-depth explanation of how Curve DAO works.
 
 ## Testing and Development
 
@@ -49,17 +49,17 @@ See the [deployment documentation](scripts/deployment/README.md) for detailed in
 
 ## Audits and Security
 
-Curve DAO contracts have been audited by Trail of Bits and Quantstamp. These audit reports are made available on the [Curve website](https://dao.curve.fi/audits).
+Curve DAO contracts have been audited by Trail of Bits and Quantstamp. These audit reports are made available on the [Curve website](https://docs.curve.finance/security/security/#security-audits).
 
-There is also an active [bug bounty](https://www.curve.fi/bugbounty) for issues which can lead to substantial loss of money, critical bugs such as a broken live-ness condition, or irreversible loss of funds.
+There is also an active [bug bounty](https://docs.curve.finance/security/security/#bug-bounty) for issues which can lead to substantial loss of money, critical bugs such as a broken live-ness condition, or irreversible loss of funds.
 
 ## Resources
 
 You may find the following guides useful:
 
-1. [Curve and Curve DAO Resources](https://resources.curve.fi/)
-2. [How to earn and claim CRV](https://guides.curve.fi/how-to-earn-and-claim-crv/)
-3. [Voting and vote locking on Curve DAO](https://guides.curve.fi/voting-and-vote-locking-curve-dao/)
+1. [Curve and Curve DAO Resources](https://resources.curve.finance/)
+2. [How to earn and claim CRV](https://resources.curve.finance/vecrv/claiming-trading-fees/)
+3. [Voting and vote locking on Curve DAO](https://resources.curve.finance/vecrv/overview/)
 
 ## Community
 
